@@ -1,0 +1,87 @@
+body {
+	background-color: #7f5491;
+	color: #6b467a;
+	border: 0px solid black;
+	margin: 0;
+	padding: 0px;
+	font-family: monospace;
+}
+
+.topBar {
+	width: 98.5%;
+	height: 55px;
+	background-color: #6b467a;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 50px;
+	position: fixed;
+	margin: 0 auto 0;
+}
+
+header {
+	color: #fff;
+	font-size: 40px;
+}
+
+.leftBar {
+	height: 110vh;
+	width: 20%;
+	background-color: #5f3c6e;
+	display: inline-block;
+	margin: 0;
+	float: left;
+}
+
+.mainContainer {
+	background-color: #7f5491;
+	width: 79.2%;
+	height: 100vh;
+	display: inline-block;
+	margin: 0;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.projects {
+	margin: 0 auto 0;
+	border-radius: 5px;
+	width: 275px;
+	height: 550px;
+	background-color: #9c6db0;
+	border: 3px solid #daa8f0;
+	color: #9c6db0;
+	padding: 5px;
+}
+
+.projectButton {
+	width: 260px;
+	height: 35px;
+	border: 3px solid #7f5491;
+	background-color: #9c6db0;
+	color: #fff;
+	border-radius: 5px;
+}
+.projectButton:hover {
+	cursor: pointer;
+	background-color: #daa8f0;
+	border: 3px solid #b991c9;
+}
+
+.leftSel {
+	width: 93.7%;
+	height: 55px;
+	border: 3px solid #7f5491;
+	color: #fff;
+	padding: 0px;
+	margin: 0;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.leftSel:hover {
+	cursor: pointer;
+	background-color: #7f5491;
+	background-color: #9c6db0;
+}
