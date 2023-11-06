@@ -1,0 +1,312 @@
+{
+	"kefka": {
+		"arch": "x86_64",
+		"wp_method": "screw",
+		"firmware": {
+			"DEFAULT_RW_LEGACY": false,
+			"RW_LEGACY": "EOL",
+			"RW_LEGACY_TYPE": "seabios",
+			"FULLROM": true
+		},
+		"hardware": {
+			"ram": "4G",
+			"ssd": "32G",
+			"res": "1366x768"
+		},
+		"boardname": "braswell",
+		"supports_enrollment": true,
+		"supports_crostini": true,
+		"supports_arc": true,
+		"supports_steam": false,
+		"devices": [
+			"Dell Chromebook 11 3180",
+			"Dell Chromebook 11 3189"
+		],
+		"channels": {
+			"stable": {
+				"minimum_cr_version": "56.0.2924.110",
+				"maximum_cr_version": "103.0.5060.132",
+				"minimum_pl_version": "9000.91.0",
+				"maximum_pl_version": "14816.131.0"
+			},
+			"beta": {
+				"maximum_cr_version": "103.0.5060.53",
+				"maximum_pl_version": "14816.64.0"
+			},
+			"dev": {
+				"maximum_cr_version": "103.0.5060.15",
+				"maximum_pl_version": "14816.17.0"
+			},
+			"canary": {
+				"maximum_cr_version": "103.0.5045.0",
+				"maximum_pl_version": "14803.0.0"
+			}
+		},
+		"status": "EOL",
+		"shim": "confidential"
+	},
+	"reks": {
+		"arch": "x86_64",
+		"wp_method": "screw",
+		"firmware": {
+			"DEFAULT_RW_LEGACY": false,
+			"RW_LEGACY": "EOL",
+			"RW_LEGACY_TYPE": "seabios",
+			"FULLROM": true
+		},
+		"hardware": {
+			"ram": "4G",
+			"ssd": "16G",
+			"res": "1366x768"
+		},
+		"boardname": "braswell",
+		"supports_enrollment": true,
+		"supports_crostini": true,
+		"supports_arc": true,
+		"supports_steam": false,
+		"devices": [
+			"Lenovo N22 Chromebook",
+			"Lenovo N23 Chromebook",
+			"Lenovo N23 Chromebook (touch)",
+			"Lenovo N42 Chromebook"
+		],
+		"channels": {
+			"stable": {
+				"minimum_cr_version": "48.0.2564.116",
+				"maximum_cr_version": "103.0.5060.132",
+				"minimum_pl_version": "7647.84.0",
+				"maximum_pl_version": "14816.131.0"
+			},
+			"beta": {
+				"maximum_cr_version": "103.0.5060.53",
+				"maximum_pl_version": "14816.64.0"
+			},
+			"dev": {
+				"maximum_cr_version": "103.0.5060.15",
+				"maximum_pl_version": "14816.17.0"
+			},
+			"canary": {
+				"maximum_cr_version": "103.0.5045.0",
+				"maximum_pl_version": "14803.0.0"
+			}
+		},
+		"status": "EOL",
+		"shim": "leaked"
+	},
+	"auron-paine": {
+		"arch": "x86_64",
+		"wp_method": "screw",
+		"firmware": {
+			"DEFAULT_RW_LEGACY": false,
+			"RW_LEGACY": "EOL",
+			"RW_LEGACY_TYPE": "seabios",
+			"FULLROM": true
+		},
+		"hardware": {
+			"ram": "4G",
+			"ssd": "16G",
+			"res": "1366x768"
+		},
+		"boardname": "broadwell",
+		"supports_enrollment": false,
+		"supports_crostini": true,
+		"supports_arc": true,
+		"supports_steam": false,
+		"devices": [
+			"Acer Chromebook 11 (C740)"
+		],
+		"channels": {
+			"stable": {
+				"minimum_cr_version": "40.0.2214.115",
+				"maximum_cr_version": "91.0.4472.102",
+				"minimum_pl_version": "6457.107.0",
+				"maximum_pl_version": "13904.77.0"
+			},
+			"beta": {
+				"maximum_cr_version": "91.0.4472.81",
+				"maximum_pl_version": "13904.41.0"
+			},
+			"dev": {
+				"maximum_cr_version": "91.0.4456.0",
+				"maximum_pl_version": "13870.0.0"
+			},
+			"canary": {
+				"maximum_cr_version": "91.0.4469.0",
+				"maximum_pl_version": "13902.0.0"
+			}
+		},
+		"status": "EOL",
+		"shim": "confidential"
+	},
+	"octopus": {
+		"arch": "x86_64",
+		"wp_method": "cr50",
+		"firmware": {
+			"DEFAULT_RW_LEGACY": false,
+			"RW_LEGACY": true,
+			"RW_LEGACY_TYPE": "rwl_altfw",
+			"FULLROM": true
+		},
+		"hardware": {
+			"ram": "8G",
+			"ssd": "64G",
+			"res": "1366x768"
+		},
+		"boardname": "geminilake",
+		"supports_enrollment": true,
+		"supports_crostini": true,
+		"supports_arc": true,
+		"supports_steam": true,
+		"devices": [
+			"Acer Chromebook 311 (C733, C733U, C733T)",
+			"Acer Chromebook 311 (CB311-9H, CB311-9HT)",
+			"Acer Chromebook 314 (C933L/LT)",
+			"Acer Chromebook 314 (CB314)",
+			"Acer Chromebook 315 (CB315)",
+			"Acer Chromebook 512 (C851, C851T)",
+			"Acer Chromebook Spin 311 (CP311-2H, CP311-2HN)",
+			"Acer Chromebook Spin 511 (R752T, R752TN)",
+			"Acer Chromebook Spin 512 (R851TN)",
+			"ADVAN Chromebook 116",
+			"Ascon Chromebook 11A",
+			"ASUS Chromebook C204",
+			"ASUS Chromebook C424",
+			"ASUS Chromebook Flip C214 (EDU), ASUS Chromebook Flip C234 (CANADA CONSUMER)",
+			"Axioo Chromebook",
+			"Axioo Chromebook 360",
+			"Baicells Chromebook BB01",
+			"Chromebook 11 G8 EE",
+			"Chromebook 14 G6",
+			"Chromebook x360 11 G3 EE",
+			"Chromebook x360 12b-ca0",
+			"Chromebook x360 14a-ca0",
+			"Chromebook x360 14b-ca0",
+			"CTL Chromebook NL71/CT/LTE",
+			"CTL Chromebook NL71T/TW/TWB",
+			"CTL Chromebook NL81/NL81T",
+			"CTL Chromebook VX11, CTL Chromebook VX11T",
+			"CTL Chromebook VX11T",
+			"CX1101CMA",
+			"Dell Chromebook 3100",
+			"Dell Chromebook 3100 2-in-1",
+			"Dell Chromebook 3400",
+			"Edxis Chromebook 11 (S20-C)",
+			"Edxis Chromebook 11 (S20-X)",
+			"EVERCOSS Chromebook CB1/CB1A",
+			"EVERCOSS Chromebook CB1A",
+			"HP Chromebook 11 G7 EE",
+			"HP Chromebook 14a-na0",
+			"HP Chromebook x360 11 G2 EE",
+			"HP Chromebook x360 12b",
+			"HP Chromebook x360 14a",
+			"IdeaPad 3 CB 14IGL05",
+			"Ideapad 3 Chromebook",
+			"IdeaPad Flex 3 CB 11IGL05",
+			"JOI Chromebook C100",
+			"Lenovo 100e Chromebook 2nd Gen",
+			"Lenovo 300e/500e Chromebook 2nd Gen",
+			"Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen",
+			"Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch",
+			"Multilaser Chromebook M11C-PC914",
+			"Multilaser Chromebook M11HC-PC915",
+			"NEC Chromebook Y1",
+			"NEC Chromebook Y1 Gen 2",
+			"NEC Chromebook Y2",
+			"Packard Bell Chromebook 314 (PCB314)",
+			"Pixart Rxart Chromebook",
+			"Poin2 Chromebook 11A",
+			"Poin2 Chromebook 11P",
+			"Positivo Chromebook N2210",
+			"Positivo Chromebook N2212",
+			"Samsung Chromebook 4",
+			"Samsung Chromebook 4+",
+			"Sector 5 E4 LTE Chromebook",
+			"SPC Chromebook X1 Mini",
+			"WS Chromebook A101",
+			"XO Chromebook",
+			"Zyrex Chromebook 360",
+			"Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1"
+		],
+		"channels": {
+			"stable": {
+				"minimum_cr_version": "72.0.3626.122",
+				"maximum_cr_version": "118.0.5993.124",
+				"minimum_pl_version": "11316.165.0",
+				"maximum_pl_version": "15604.57.0"
+			},
+			"beta": {
+				"maximum_cr_version": "119.0.6045.104",
+				"maximum_pl_version": "15633.30.0"
+			},
+			"dev": {
+				"maximum_cr_version": "120.0.6085.0",
+				"maximum_pl_version": "15656.0.0"
+			},
+			"canary": {
+				"maximum_cr_version": "121.0.6105.0",
+				"maximum_pl_version": "15668.0.0"
+			}
+		},
+		"status": "supported",
+		"shim": "leaked"
+	},
+	"jacuzzi": {
+		"arch": "x86_64",
+		"wp_method": "cr50",
+		"firmware": {
+			"DEFAULT_RW_LEGACY": false,
+			"RW_LEGACY": true,
+			"RW_LEGACY_TYPE": "rwl_altfw",
+			"FULLROM": true
+		},
+		"hardware": {
+			"ram": "8G",
+			"ssd": "64G",
+			"res": "1366x768"
+		},
+		"boardname": "geminilake",
+		"supports_enrollment": true,
+		"supports_crostini": true,
+		"supports_arc": true,
+		"supports_steam": true,
+		"devices": [
+			"Acer Chromebook 314 (CB314-2H/CB314-2HT)",
+			"Acer Chromebook 311 (C722/C722T)",
+			"Acer Chromebook 311 (CB311-11H/CB311-11HT)",
+			"Acer Chromebook Spin 311 (CP311-3H)",
+			"Acer Chromebook Spin 311 - R722T",
+			"ASUS Chromebook Flip CM3200FVA",
+			"HP Chromebook 11.6 inch",
+			"HP Chromebook 11a na0",
+			"HP Chromebook 11a na0xxx",
+			"HP Chromebook 11a-ne0",
+			"HP Chromebook 11MK G9 EE",
+			"HP Chromebook x360 11MK G3 EE",
+			"IdeaPad 3 Chromebook",
+			"IdeaPad Flex 3 Chromebook",
+			"Lenovo 100e Gen 2"
+		],
+		"channels": {
+			"stable": {
+				"minimum_cr_version": "83.0.4103.119",
+				"maximum_cr_version": "118.0.5993.124",
+				"minimum_pl_version": "13020.82.0",
+				"maximum_pl_version": "15604.57.0"
+			},
+			"beta": {
+				"maximum_cr_version": "119.0.6045.104",
+				"maximum_pl_version": "15633.30.0"
+			},
+			"dev": {
+				"maximum_cr_version": "120.0.6085.0",
+				"maximum_pl_version": "15656.0.0"
+			},
+			"canary": {
+				"maximum_cr_version": "121.0.6105.0",
+				"maximum_pl_version": "15668.0.0"
+			}
+		},
+		"status": "supported",
+		"shim": "leaked"
+	}
+}
